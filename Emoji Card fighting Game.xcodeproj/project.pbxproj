@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05FA9ED7213F8AE700D02BA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FA9ED6213F8AE700D02BA8 /* AppDelegate.swift */; };
+		05FA9ED9213F8AE700D02BA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FA9ED8213F8AE700D02BA8 /* ViewController.swift */; };
+		05FA9EDC213F8AE700D02BA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05FA9EDA213F8AE700D02BA8 /* Main.storyboard */; };
+		05FA9EDE213F8AEB00D02BA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FA9EDD213F8AEB00D02BA8 /* Assets.xcassets */; };
+		05FA9EE1213F8AEB00D02BA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05FA9EDF213F8AEB00D02BA8 /* LaunchScreen.storyboard */; };
+		05FA9EEA2144ADF400D02BA8 /* EmojiGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FA9EE92144ADF400D02BA8 /* EmojiGame.swift */; };
+		05FA9EEC2144AE0E00D02BA8 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FA9EEB2144AE0E00D02BA8 /* Cards.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05FA9ED3213F8AE700D02BA8 /* Emoji Card fighting Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Card fighting Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05FA9ED6213F8AE700D02BA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05FA9ED8213F8AE700D02BA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05FA9EDB213F8AE700D02BA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05FA9EDD213F8AEB00D02BA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05FA9EE0213F8AEB00D02BA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05FA9EE2213F8AEB00D02BA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05FA9EE92144ADF400D02BA8 /* EmojiGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiGame.swift; sourceTree = "<group>"; };
+		05FA9EEB2144AE0E00D02BA8 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05FA9ED0213F8AE600D02BA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05FA9ECA213F8AE600D02BA8 = {
+			isa = PBXGroup;
+			children = (
+				05FA9ED5213F8AE700D02BA8 /* Emoji Card fighting Game */,
+				05FA9ED4213F8AE700D02BA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05FA9ED4213F8AE700D02BA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05FA9ED3213F8AE700D02BA8 /* Emoji Card fighting Game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05FA9ED5213F8AE700D02BA8 /* Emoji Card fighting Game */ = {
+			isa = PBXGroup;
+			children = (
+				05FA9ED6213F8AE700D02BA8 /* AppDelegate.swift */,
+				05FA9EE82144ADB300D02BA8 /* Supporting Docs */,
+				05FA9ED8213F8AE700D02BA8 /* ViewController.swift */,
+				05FA9EE92144ADF400D02BA8 /* EmojiGame.swift */,
+				05FA9EEB2144AE0E00D02BA8 /* Cards.swift */,
+				05FA9EDA213F8AE700D02BA8 /* Main.storyboard */,
+				05FA9EDD213F8AEB00D02BA8 /* Assets.xcassets */,
+				05FA9EDF213F8AEB00D02BA8 /* LaunchScreen.storyboard */,
+				05FA9EE2213F8AEB00D02BA8 /* Info.plist */,
+			);
+			path = "Emoji Card fighting Game";
+			sourceTree = "<group>";
+		};
+		05FA9EE82144ADB300D02BA8 /* Supporting Docs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Docs";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05FA9ED2213F8AE600D02BA8 /* Emoji Card fighting Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05FA9EE5213F8AEB00D02BA8 /* Build configuration list for PBXNativeTarget "Emoji Card fighting Game" */;
+			buildPhases = (
+				05FA9ECF213F8AE600D02BA8 /* Sources */,
+				05FA9ED0213F8AE600D02BA8 /* Frameworks */,
+				05FA9ED1213F8AE600D02BA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Emoji Card fighting Game";
+			productName = "Emoji Card fighting Game";
+			productReference = 05FA9ED3213F8AE700D02BA8 /* Emoji Card fighting Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05FA9ECB213F8AE600D02BA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Eric Haskell";
+				TargetAttributes = {
+					05FA9ED2213F8AE600D02BA8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 05FA9ECE213F8AE600D02BA8 /* Build configuration list for PBXProject "Emoji Card fighting Game" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05FA9ECA213F8AE600D02BA8;
+			productRefGroup = 05FA9ED4213F8AE700D02BA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05FA9ED2213F8AE600D02BA8 /* Emoji Card fighting Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05FA9ED1213F8AE600D02BA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FA9EE1213F8AEB00D02BA8 /* LaunchScreen.storyboard in Resources */,
+				05FA9EDE213F8AEB00D02BA8 /* Assets.xcassets in Resources */,
+				05FA9EDC213F8AE700D02BA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05FA9ECF213F8AE600D02BA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FA9EEA2144ADF400D02BA8 /* EmojiGame.swift in Sources */,
+				05FA9ED9213F8AE700D02BA8 /* ViewController.swift in Sources */,
+				05FA9ED7213F8AE700D02BA8 /* AppDelegate.swift in Sources */,
+				05FA9EEC2144AE0E00D02BA8 /* Cards.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05FA9EDA213F8AE700D02BA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05FA9EDB213F8AE700D02BA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05FA9EDF213F8AEB00D02BA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05FA9EE0213F8AEB00D02BA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05FA9EE3213F8AEB00D02BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05FA9EE4213F8AEB00D02BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05FA9EE6213F8AEB00D02BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R49BQQ3A6U;
+				INFOPLIST_FILE = "Emoji Card fighting Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com546.Code345WithEric2014.Emoji-Card-fighting-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05FA9EE7213F8AEB00D02BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R49BQQ3A6U;
+				INFOPLIST_FILE = "Emoji Card fighting Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com546.Code345WithEric2014.Emoji-Card-fighting-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05FA9ECE213F8AE600D02BA8 /* Build configuration list for PBXProject "Emoji Card fighting Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FA9EE3213F8AEB00D02BA8 /* Debug */,
+				05FA9EE4213F8AEB00D02BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05FA9EE5213F8AEB00D02BA8 /* Build configuration list for PBXNativeTarget "Emoji Card fighting Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05FA9EE6213F8AEB00D02BA8 /* Debug */,
+				05FA9EE7213F8AEB00D02BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05FA9ECB213F8AE600D02BA8 /* Project object */;
+}
